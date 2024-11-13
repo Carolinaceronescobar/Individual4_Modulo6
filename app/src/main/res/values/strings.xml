@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Individual1_Modulo6</string>
+    <string name="add_task">Agregar Tarea</string>
+    <string name="save">Guardar</string>
+    <string name="task_hint">Ingresa una tarea</string>
+    <string name="menu_delete_all">Borrar todo</string>
+
+</resources>
