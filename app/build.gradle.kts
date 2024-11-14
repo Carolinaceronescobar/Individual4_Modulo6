@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.appmarte_039"
+    namespace = "com.example.Individual1_Modulo6"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.appmarte_039"
+        applicationId = "com.example.Individual1_Modulo6"
         minSdk = 31
         targetSdk = 34
         versionCode = 1
@@ -41,7 +41,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -53,34 +52,34 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     //Retrofit
-    implementation ("com.squareup.retrofit2:retrofit:2.11.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation (libs.retrofit2.retrofit)
+    implementation(libs.converter.gson)
 
     // Retrofit with Scalar Converter
-    implementation ("com.squareup.retrofit2:converter-scalars:2.9.0")
+    implementation (libs.converter.scalars)
     // Retrofit with Kotlin Coroutines Adapter
-    implementation("com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2")
+    implementation(libs.retrofit2.kotlin.coroutines.adapter)
 
     // Glide
-    implementation ("com.github.bumptech.glide:glide:4.16.0")
-    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
+    implementation (libs.github.glide)
+    annotationProcessor (libs.compiler)
 
     // Room
     val room_version = "2.6.1"
-    implementation("androidx.room:room-runtime:$room_version")
-    implementation("androidx.room:room-ktx:$room_version")
-    kapt("androidx.room:room-compiler:$room_version")
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    kapt(libs.androidx.room.compiler)
 
     // Fragment KTX
-    implementation("androidx.fragment:fragment-ktx:1.7.1")
+    implementation(libs.androidx.fragment.ktx)
 
     // Lifecycle and LiveData
-    val lifecycle_version = "2.8.0"
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    val lifecycleVersion = "2.8.0"
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
 
     // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
+    implementation(libs.kotlinx.coroutines.android)
 
 
 }

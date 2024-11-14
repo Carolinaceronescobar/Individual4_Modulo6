@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.MutableLiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.appmarte_039.databinding.MarsItemBinding
+import com.example.Individual1_Modulo6.databinding.MarsItemBinding
 import com.example.individual1_modulo6.model.Remote.MarsRealState
 
 class AdapterMars : RecyclerView.Adapter<AdapterMars.MarsVH>() {

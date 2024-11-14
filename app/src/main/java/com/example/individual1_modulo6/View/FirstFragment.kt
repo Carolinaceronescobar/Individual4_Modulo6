@@ -10,8 +10,8 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.appmarte_039.R
-import com.example.appmarte_039.databinding.FragmentFirstBinding
+import com.example.Individual1_Modulo6.databinding.FragmentFirstBinding
+import com.example.Individual1_Modulo6.R
 import com.example.individual1_modulo6.viewmodel.AdapterMars
 import com.example.individual1_modulo6.viewmodel.MarsViewModel
 

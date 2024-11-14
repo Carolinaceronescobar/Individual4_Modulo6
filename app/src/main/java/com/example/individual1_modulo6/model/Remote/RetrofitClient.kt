@@ -9,7 +9,7 @@ class RetrofitClient {
     companion object {
         // SI QUIERE TRABAJAR CON COROUTINES ESTA CLASE QUEDA IGUAL
 
-        private const val BASE_URL ="https://android-kotlin-fun-mars-server.appspot.com/"
+        private const val BASE_URL ="https://android-kotlin-fun-mars-server.appspot.com/photos/"
 
         fun getRetrofit() : MarsApi {
 
